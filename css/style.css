@@ -529,16 +529,6 @@ ul {
     font-size: 1em;
     line-height: normal; } 
 
-    .banner .coba{
-        position: absolute;
-        right: 0px;
-    }
-
-    .banner .coba2{
-        position: absolute;
-        left: 0px;
-    }
-
   }
 
 
@@ -3869,9 +3859,25 @@ Back To Top Section
     .banner .owl-theme .item {
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+       }
       .banner .owl-theme .item img {
         display: none; }
+
+      @media (max-width: 767px) {
+        .banner .owl-theme .coba{
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 85% 0%; 
+        }
+
+        .banner .owl-theme .coba2{
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 18% 0%; 
+        }
+
+      }
   .banner .custom-nav {
     position: absolute;
     top: 40%;
