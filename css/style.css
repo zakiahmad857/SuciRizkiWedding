@@ -514,7 +514,7 @@ ul {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 1em;
+    font-size: 5em;
     line-height: normal; }
 
   h2, .banner-page .title-page, .banner-page-2 .title-page {
