@@ -518,7 +518,7 @@ ul {
     line-height: normal; }
 
   h2, .banner-page .title-page, .banner-page-2 .title-page {
-    font-size: 5em;
+    font-size: 2em;
     line-height: normal; }
 
   h3 {
@@ -527,7 +527,21 @@ ul {
 
   h4, .rs-team-1 .title, .rs-team-2 .title, .rs-team-single .title, .rs-box-project .title {
     font-size: 1em;
-    line-height: normal; } }
+    line-height: normal; } 
+
+    .banner .coba{
+        position: absolute;
+        right: 0px;
+    }
+
+    .banner .coba2{
+        position: absolute;
+        left: 0px;
+    }
+
+  }
+
+
 /* CUSTOM GLOBAL */
 .content-wrap {
   padding: 100px 0; }
