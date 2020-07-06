@@ -1,8 +1,12 @@
 $(document).ready(function(){
 
 	"use strict";
-	if($(window).width() < 767) {
-		$("#img123").attr("src", "images/1.jpeg");
+	if($(window).width() < 767 && ) {
+		if(window.innerHeight > window.innerWidth){
+			$("#img123").attr("src", "images/1.jpeg");
+		}
+		else
+			$("#img123").attr("src", "images/header-01-1.jpg");
 	}else{
 		$("#img123").attr("src", "images/header-01-1.jpg");
 
@@ -335,13 +339,10 @@ $(document).ready(function(){
 			}
 		});
 		return false;
- 	});
-
-
-	
+ 	});	
 });
 
 
-
+window.onorientationchange = function() {  	window.location.reload(); };
   
   
