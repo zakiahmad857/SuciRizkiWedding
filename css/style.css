@@ -514,7 +514,7 @@ ul {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 1em;
+    font-size: 2em;
     line-height: normal; }
 
   h2, .banner-page .title-page, .banner-page-2 .title-page {
@@ -647,6 +647,7 @@ ul {
       margin-top: 20px;
       background-color: $color-primary;
   }*/ }
+
   .section-heading.light, .rs-feature-box-1 .light.title {
     color: #C69C6D; }
     .section-heading.light span, .rs-feature-box-1 .light.title span {
@@ -658,9 +659,16 @@ ul {
     margin-right: auto; }
   .section-heading.text-right:after, .rs-feature-box-1 .text-right.title:after {
     margin-left: auto; }
+    .specialwedding:after{
+      content: 'We annouce you, our special Wedding';
+    }
   @media (max-width: 767px) {
     .section-heading, .rs-feature-box-1 .title {
-      font-size: 32px; } }
+      font-size: 32px; }
+    .specialwedding:after{
+      content: 'We annouce you,' '\A' ' our special Wedding';
+      white-space: pre;
+    } }
 
 .supheading {
   font-size: 18px;
@@ -4055,7 +4063,7 @@ Back To Top Section
     width: 50%; 
     margin: 0 0;
     text-align: center;}
-    @media (max-width: 991px) {
+    @media (max-width: 991px)  and (orientation: portrait){
       .banner-full .h-right > .wrap-caption,
       .banner .h-right > .wrap-caption {
         width: 100%; 
@@ -4076,7 +4084,7 @@ Back To Top Section
   width: 80%;
   margin: 0 0;
   text-align: left; }
-  @media (max-width: 991px) {
+  @media (max-width: 991px) and (orientation: portrait){
     .banner-full .h-left > .wrap-caption,
     .banner .h-left > .wrap-caption {
       width: 100%; 
@@ -4737,7 +4745,7 @@ Back To Top Section
 
 @media (max-width: 767px) {
   .cta h1 {
-    font-size: 2.571em; }
+    font-size: 1.571em; }
   .cta h2, .cta .banner-page .title-page, .banner-page .cta .title-page, .cta .banner-page-2 .title-page, .banner-page-2 .cta .title-page {
     font-size: 1.857em; }
   .cta h3 {
@@ -4806,7 +4814,8 @@ Back To Top Section
   background-size: cover;
   background-position: center;
   border-top: 1px solid #C69C6D;
-  position: relative; }
+  position: relative; 
+padding: 1px 0;}
   .footer .sosmed-icon a {
     font-size: 20px;
     margin-left: 5px;
