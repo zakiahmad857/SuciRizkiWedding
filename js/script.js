@@ -3,13 +3,22 @@ $(document).ready(function(){
 	"use strict";
 	if($(window).width() < 767 ) {
 		if(window.innerHeight > window.innerWidth){
-			$("#img123").attr("src", "images/1.jpeg");
+			$("#img1").attr("src", "images/header-01-1-mobile.jpeg");
+			$("#img2").attr("src", "images/header-02-2-mobile.jpg");
+			$("#img3").attr("data-background", "images/akad-2-mobile.jpg");
+			//document.getElementById('img3').style.backgroundImage="url(images/akad-2-mobile.jpg)";
 		}
 		else{
-			$("#img123").attr("src", "images/header-01-1.jpg");
+			$("#img1").attr("src", "images/header-01-1.jpg");
+			$("#img2").attr("src", "images/header-02-2.jpg");
+			$("#img3").attr("data-background", "images/akad-2.jpg");
+			//document.getElementById('img3').style.backgroundImage="url(images/akad-2.jpg)";
 		}
 	}else{
-		$("#img123").attr("src", "images/header-01-1.jpg");
+		$("#img1").attr("src", "images/header-01-1.jpg");
+		$("#img2").attr("src", "images/header-02-2.jpg");
+		$("#img3").attr("data-background", "images/akad-2.jpg");
+		//document.getElementById('img3').style.backgroundImage="url(images/akad-2.jpg)";
 
 	}
 	/* =================================
