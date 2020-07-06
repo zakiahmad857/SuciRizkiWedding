@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
 	"use strict";
-	
+	if($(window).width() < 767) {
+		$("#img123").attr("src", "images/1.jpeg");
+	}else{
+		$("#img123").attr("src", "images/header-01-1.jpg");
+
+	}
 	/* =================================
 	LOADER 
 	=================================== */
@@ -21,6 +26,8 @@ $(document).ready(function(){
     	t = e.attr('aria-valuenow');
     	e.css({'width': t + '%'});
     });
+
+
 
     /* =================================
 	SCROLL TO

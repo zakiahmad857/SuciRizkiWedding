@@ -3866,10 +3866,13 @@ Back To Top Section
 
       @media (max-width: 767px) {
         .banner .owl-theme .coba{
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: 85% 0%; 
+          
+         
         }
+
+        
+
+        
 
         .banner .owl-theme .coba2{
           background-repeat: no-repeat;
