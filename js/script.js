@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	"use strict";
-	if($(window).width() < 767 && ) {
+	if($(window).width() < 767 ) {
 		if(window.innerHeight > window.innerWidth){
 			$("#img123").attr("src", "images/1.jpeg");
 		}
