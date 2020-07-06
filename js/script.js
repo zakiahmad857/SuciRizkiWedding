@@ -5,8 +5,9 @@ $(document).ready(function(){
 		if(window.innerHeight > window.innerWidth){
 			$("#img123").attr("src", "images/1.jpeg");
 		}
-		else
+		else{
 			$("#img123").attr("src", "images/header-01-1.jpg");
+		}
 	}else{
 		$("#img123").attr("src", "images/header-01-1.jpg");
 
