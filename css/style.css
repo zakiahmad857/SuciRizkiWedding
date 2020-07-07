@@ -3474,6 +3474,7 @@ Back To Top Section
     /*min-width: 45%;*/
     text-align: center;
     padding: 100px 80px;
+    
     background-color: rgba(34, 34, 34, 0.8);
     position: relative; }
     .box-events .box-event .event-info:before {
