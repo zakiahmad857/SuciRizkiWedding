@@ -628,7 +628,7 @@ ul {
   position: relative; }
 
 .quotes{
-padding 0 10%}
+padding: 50% 0;}
 
 .section-heading, .rs-feature-box-1 .title {
   font-size: 48px;
