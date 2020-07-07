@@ -3571,9 +3571,19 @@ Back To Top Section
     font-weight: 700; }
   .box-people .people-info .position {
     color: #C69C6D;
-    margin-top: 0; }
+    margin-top: 0; }  
     .box-people .people-info .position:before, .box-people .people-info .position:after {
       content: ' - '; }
+.parentsofbride:after{
+      content: 'Daughter of Mr. H. M. Effendi Dt. Sinaro & Mrs. Hj. Betty Atmi';
+    }
+  @media (max-width: 767px) {
+    .box-people, .people-info .position {
+      font-size: 30px; }
+    .parentsofbride:after{
+      content: 'Daughter of' '\A' 'Mr. H. M. Effendi Dt. Sinaro & Mrs. Hj. Betty Atmi';
+      white-space: pre;
+    }
   .box-people.row-reverse {
     -webkit-flex-direction: row-reverse;
     flex-direction: row-reverse;
