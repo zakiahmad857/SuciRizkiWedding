@@ -3,7 +3,7 @@ $(document).ready(function(){
 	"use strict";
 	if($(window).width() < 767 ) {
 		if(window.innerHeight > window.innerWidth){
-			$("#img1").attr("src", "images/header-01-1-mobile.jpeg");
+			$("#img1").attr("src", "images/header-01-1-mobile.jpg");
 			$("#img2").attr("src", "images/header-02-2-mobile.jpg");
 			$("#img3").attr("data-background", "images/akad-2-mobile.jpg");
 			//document.getElementById('img3').style.backgroundImage="url(images/akad-2-mobile.jpg)";
