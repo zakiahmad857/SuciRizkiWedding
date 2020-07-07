@@ -624,14 +624,30 @@ ul {
     content: "";
     clear: both; }
 
+
 .section {
   position: relative; }
 
+.quotesbg{
+  background-position: 90% 30%;
+  background-size: cover;}
+
 .quotes{
-padding-top: 20%; 
-padding-bottom: 0;
-padding-right: 0;
-padding-left: 0;}
+padding: 10% 0;}
+
+@media(max-width: 767px){
+  .quotesbg{
+    background-position: 87% 30%;
+    background-size: cover;
+    padding-top: 40%;
+    
+  }
+
+  .quotes2{
+    padding-top: 40%;
+    padding-bottom: 20%;
+  }
+}
 
 .section-heading, .rs-feature-box-1 .title {
   font-size: 48px;
