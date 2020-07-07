@@ -3473,7 +3473,10 @@ Back To Top Section
     display: inline-block;
     /*min-width: 45%;*/
     text-align: center;
-    padding: 100px 80px;
+    padding-top: 110px; 
+    padding-bottom: 90px;
+    padding-right: 80px;
+    padding-left: 80px;
     
     background-color: rgba(34, 34, 34, 0.8);
     position: relative; }
