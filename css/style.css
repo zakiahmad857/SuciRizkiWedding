@@ -3582,7 +3582,7 @@ Back To Top Section
       font-size: 30px; }
     .parentsofbride:after{
       content: 'Daughter of' '\A' 'Mr. H. M. Effendi Dt. Sinaro & Mrs. Hj. Betty Atmi';
-      white-space: pre;
+	    white-space: pre; }
     }
   .box-people.row-reverse {
     -webkit-flex-direction: row-reverse;
