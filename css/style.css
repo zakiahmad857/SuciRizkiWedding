@@ -3509,8 +3509,8 @@ Back To Top Section
 
 @media (max-width: 767px) {
 .box-events .box-event .event-info {
-    padding-right: 60px;
-    padding-left: 60px;}
+    padding-right: 50px;
+    padding-left: 50px;}
 }
 
     .box-events .box-event .event-info:before {
