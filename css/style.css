@@ -630,7 +630,9 @@ ul {
 
 .quotesbg{
   background-position: 90% 30%;
-  background-size: cover;}
+  background-size: cover;
+
+  background-color: rgba(25, 25, 25, 0.92);}
 
 .quotes{
 padding-top: 17.5%;
