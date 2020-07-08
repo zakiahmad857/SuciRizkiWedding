@@ -3524,7 +3524,7 @@ Back To Top Section
 @media (max-width: 767px) {
  .alamat {
   font-weight : 700 !important;
-  font-size : 13px} 
+  font-size : 13px !important; } 
 }
 	  
 .pita {
