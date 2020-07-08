@@ -645,6 +645,8 @@ padding-left:0;}
   .quotesbg{
     background-position: 85% 40%;
     background-size: cover;
+	  
+    background-color: rgba(25, 25, 25, 0.92)
   }
 
   .quotes{
@@ -3504,7 +3506,7 @@ Back To Top Section
     padding-right: 80px;
     padding-left: 80px;
     
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(34, 34, 34, 0.92);
     position: relative; }
 
 @media (max-width: 767px) {
