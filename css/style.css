@@ -634,8 +634,12 @@ ul {
 
 .quotes{
 padding-top: 17.5%;
-padding-bottom: 17.5%;
+padding-bottom: 2.5%;
 padding-left:0;}
+
+.quotes2{
+  padding-bottom: 15.5%;
+}
 
 @media(max-width: 767px){
   .quotesbg{
