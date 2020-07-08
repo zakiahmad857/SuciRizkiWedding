@@ -3519,8 +3519,13 @@ Back To Top Section
       border: 1px solid #C69C6D; }
 
 .alamat {
-  font-weight : 700 !important; 
-  font-size : 14px ;
+	font-weight : 700 !important; }
+
+@media (max-width: 767px) {
+ .alamat {
+  font-weight : 700 !important;
+  font-size : 13px} 
+}
 	  
 .pita {
   background-color: #333333;
