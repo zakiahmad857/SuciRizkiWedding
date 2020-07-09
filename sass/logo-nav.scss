@@ -60,7 +60,7 @@
   -webkit-transition: padding .2s ease-in-out;
   transition: padding .2s ease-in-out;
   .navbar{
-    padding: 0;
+    padding: 10% 50%;
   }
 
   ol, li{
@@ -148,6 +148,7 @@
   .navbar-main{
     background-color: $navbar-bg;
     width: 100%;
+    }
     
     .navbar-brand{
       
