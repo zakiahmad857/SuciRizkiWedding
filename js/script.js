@@ -41,8 +41,7 @@ $(document).ready(function(){
     	e.css({'width': t + '%'});
     });
 
-
-
+    var play=0;
     /* =================================
 	SCROLL TO
 	=================================== */
@@ -67,13 +66,14 @@ $(document).ready(function(){
 	var navbar = jQuery('.navbar-main');
 	var navbarnav = jQuery('.navbar-nav');
 	var header = jQuery('.header');
-	
+	var audioElement = document.getElementById('audio1');
 	
 	if ( top > batas ) {
 		navbar.addClass('stiky');
 		navbarnav.addClass('ml-auto');
 	}
 	jQuery(window).scroll(function () {
+		audioElement.play();
 		top = jQuery(document).scrollTop();
 
 		
