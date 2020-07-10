@@ -70,7 +70,7 @@ $(document).ready(function(){
 
 	let isPlaying = false;
 
-	["click", "touchmove", "focus"].forEach((eventName)=>{
+	["click", "touchmove", "focus", "touchstart"].forEach((eventName)=>{
 	  window.addEventListener(eventName, ()=>{
 	    if(!isPlaying){
 	      
