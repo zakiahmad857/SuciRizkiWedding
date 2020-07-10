@@ -70,12 +70,12 @@ $(document).ready(function(){
 
 	let isPlaying = false;
 
-	["click", "touchmove", "focus", "touchstart"].forEach((eventName)=>{
+	["click", "touchmove", "focus", "touchstart","scroll"].forEach((eventName)=>{
 	  window.addEventListener(eventName, ()=>{
 	    if(!isPlaying){
 	      
 	      try{
-	        audioElement.play();
+	        
 	        isPlaying = true;
 	      }catch(e){
 	        console.warn(e.message);
@@ -91,6 +91,10 @@ $(document).ready(function(){
 	}
 	jQuery(window).scroll(function () {
 		
+		if(isPlaying){
+			audioElement.play();
+
+		}
 		top = jQuery(document).scrollTop();
 
 		
