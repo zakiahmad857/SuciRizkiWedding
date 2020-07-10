@@ -93,8 +93,6 @@ Version: 1.0
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-
-
 .sas-1:before {
   content: '\e801'; }
 
@@ -119,11 +117,6 @@ BUTTON SETTING
   display: block;
   width: 100%;
   clear: both; }
-
-  .oooy{
-    padding-right: 3.25%;
-    padding-left: 5%;
-  }
 
 /**
  * 1. - NORMALIZE CSS
@@ -3768,18 +3761,6 @@ Back To Top Section
   .navbar-main ol, .navbar-main li {
     margin: 0 0;
     font-size: 14px; }
-
-  @media(min-width:   1500px){
-    .navbar-main ol, .navbar-main li {
-        margin: 0 0;
-        font-size: 20px; 
-    }
-
-    .cek{
-        width:80px; height:80px;
-    }
-
-
   .navbar-main ul {
     margin-left: 0; }
   .navbar-main .navbar-toggler {
@@ -3813,8 +3794,7 @@ Back To Top Section
       text-decoration: none;
       background-color: #C69C6D; }
   .navbar-main.stiky .navbar-brand img {
-    /*width: 80%;*/ }
-
+    width: 80%; }
   .navbar-main.stiky .navbar {
     padding-top: 8px;
     padding-bottom: 8px; }
