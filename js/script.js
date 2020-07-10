@@ -41,7 +41,7 @@ $(document).ready(function(){
     	e.css({'width': t + '%'});
     });
 
-    var play=0;
+    
     /* =================================
 	SCROLL TO
 	=================================== */
@@ -67,13 +67,30 @@ $(document).ready(function(){
 	var navbarnav = jQuery('.navbar-nav');
 	var header = jQuery('.header');
 	var audioElement = document.getElementById('audio1');
+
+	let isPlaying = false;
+
+	["click", "touchmove", "focus"].forEach((eventName)=>{
+	  window.addEventListener(eventName, ()=>{
+	    if(!isPlaying){
+	      
+	      try{
+	        audioElement.play();
+	        isPlaying = true;
+	      }catch(e){
+	        console.warn(e.message);
+	      }
+	      
+	    }
+	  }); 
+	});
 	
 	if ( top > batas ) {
 		navbar.addClass('stiky');
 		navbarnav.addClass('ml-auto');
 	}
 	jQuery(window).scroll(function () {
-		audioElement.play();
+		
 		top = jQuery(document).scrollTop();
 
 		
