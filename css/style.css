@@ -629,7 +629,8 @@ ul {
 
 
 .section {
-  position: relative; }
+  position: relative;
+  font-family: "Kiona Reguler" !important;}
 
 .quotesbg{
   background-position: 90% 30%;
