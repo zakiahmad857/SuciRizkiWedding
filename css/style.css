@@ -472,7 +472,7 @@ h4,
 .rs-team-single .title,
 .rs-box-project .title,
 h5 {
-  font-family: "Rouge Script", cursive;
+  font-family: "Kiona Reguler", cursive;
   margin-top: 10px;
   margin-bottom: 20px;
   font-weight: 400; }
@@ -632,7 +632,7 @@ ul {
   position: relative;}
 
 .quotesbg{
-  background-position: 60% 70%;
+  background-position: 60% 0%;
   background-size: cover;
 
   background-color: rgba(25, 25, 25, 0.92);}
