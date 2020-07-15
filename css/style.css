@@ -694,6 +694,7 @@ padding-left:0;}
     margin-left: auto; }
     .specialwedding:after{
       content: 'We annouce you, our special Wedding';
+	    font-size: 38px !important;
     }
   @media (max-width: 767px) {
     .section-heading, .rs-feature-box-1 .title {
@@ -3530,13 +3531,18 @@ Back To Top Section
       background-color: rgb(233, 150, 122, 0,92);
       border: 1px solid #FFEBCD; }
 
+.warnaakad {
+color: #ffffff !important;}
+
 .alamat {
-	font-weight : 700 !important; }
+	font-weight : 700 !important; 
+	color: #ffffff;}
 
 @media (max-width: 767px) {
  .alamat {
   font-weight : 700 !important;
-  font-size : 14px !important; } 
+  font-size : 14px !important; 
+  color: #ffffff;} 
 }
 	  
 .pita {
