@@ -740,6 +740,12 @@ padding-left:0;}
   background-size: cover;
   background-position: center; }
 
+.surah {
+    padding-top: 110px; 
+    padding-bottom: 90px;
+    padding-right: 80px;
+    padding-left: 80px;}
+
 .bgi-cover-center {
   background-size: cover;
   background-position: center; }
