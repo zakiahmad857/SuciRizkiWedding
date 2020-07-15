@@ -4052,15 +4052,22 @@ Back To Top Section
 	font-family: Kiona Reguler;
 	src: url(Kiona-Regular.ttf);
 	
-	.banner-full .wrap-caption .caption-2,
-  .banner .wrap-caption .caption-heading2 {
+	.banner-full .wrap-caption .caption-2, {
     font-size: 70px;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: "Kiona Reguler", cursive;
     /*font-weight: 900;*/
     color: #ffffff;
     line-height: 1; }
+
+.banner .wrap-caption .caption-heading2 {
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    /*font-weight: 900;*/
+    color: #ffffff;
+    line-height: 1; }
+
     @media(max-width: 991px){
 
     }
