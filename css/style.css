@@ -4164,7 +4164,7 @@ color: #ffffff !important;}
         margin-top: 90%;} }
 .banner-full .h-center > .wrap-caption,
 .banner .h-center > .wrap-caption {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   text-align: center; }
   @media (max-width: 991px) {
