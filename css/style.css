@@ -4062,7 +4062,7 @@ color: #ffffff !important;}
 
 @font-face {
 	font-family: Kiona Reguler;
-	src: url(Kiona-Regular.ttf);
+	src: url(../fonts/Kiona-Regular.ttf);
 	
 	.banner-full .wrap-caption .caption-2, {
     font-size: 70px;
