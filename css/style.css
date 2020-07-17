@@ -4063,6 +4063,10 @@ color: #ffffff !important;}
     .main-content .owl-theme .custom-nav .owl-next {
       right: 0; }
 
+@font-face {
+	font-family: Kiona Reguler;
+	src: url(../fonts/Kiona-Regular.ttf); }
+
 .banner-full {
   height: 110%;
   position: relative; }
@@ -4081,10 +4085,6 @@ color: #ffffff !important;}
     /*font-weight: 900;*/
     color: #ffffff;
     line-height: 1; }
-
-@font-face {
-	font-family: Kiona Reguler;
-	src: url(../fonts/Kiona-Regular.ttf); }
 	
 	.banner-full .wrap-caption .caption-2, {
     font-size: 70px;
@@ -4193,6 +4193,21 @@ color: #ffffff !important;}
     .banner-full .h-center > .wrap-caption,
     .banner .h-center > .wrap-caption {
       width: 100%; } }
+
+ .banner-full .h-center1 > .wrap-caption,
+.banner .h-center1 > .wrap-caption {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  @media (max-width: 991px) and (orientation: portrait){
+    .banner-full .h-center1 > .wrap-caption,
+    .banner .h-center1 > .wrap-caption {
+      width: 100%; 
+      height:100%;
+      text-align: center;
+      vertical-align: bottom;
+      margin-top: 90%;} 
+    }
 
  .banner-full .h-left > .wrap-caption,
 .banner .h-left > .wrap-caption {
