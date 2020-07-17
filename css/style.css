@@ -713,7 +713,7 @@ padding-left:0;}
       font-size: 32px; }
     .specialwedding:after{
       content: 'We annouce you,' '\A' ' our special Wedding';
-	font-size: 24px;
+	font-size: 20px !important;
       white-space: pre;
     } }
 
@@ -4112,7 +4112,7 @@ color: #ffffff !important;}
   .banner-full .wrap-caption .caption-subheading,
   .banner .wrap-caption .caption-subheading {
     color: #C69C6D;
-    font-size: 30px;
+    font-size: 24px;
     font-style: italic; }
     .banner-full .wrap-caption .caption-subheading:after,
     .banner .wrap-caption .caption-subheading:after {
