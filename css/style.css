@@ -752,6 +752,10 @@ padding-left:0;}
     padding-right: 80px;
     padding-left: 80px;}
 
+.akad1 {
+	Padding-top: 20px;
+	Padding-bottom: 110px;}
+
 .surah {
     padding-top: 110px; 
     padding-bottom: 100px;
@@ -4200,7 +4204,8 @@ color: #ffffff !important;}
     }
 
 .wedding {
-      margin-bottom: 120px;}
+      Padding-top: 20px;
+      Padding-bottom: 110px;}
 
 .img-video {
   position: relative; }
