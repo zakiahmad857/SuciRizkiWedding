@@ -568,6 +568,9 @@ ul {
     }
   }
 
+.uk26 {
+  font-size: 26px; }
+
 .uk28 {
   font-size: 28px; }
   
@@ -4197,7 +4200,7 @@ color: #ffffff !important;}
     }
 
 .wedding {
-      margin-bottom: 90%;}
+      margin-bottom: 120px;}
 
 .img-video {
   position: relative; }
