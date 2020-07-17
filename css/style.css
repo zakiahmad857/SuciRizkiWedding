@@ -573,7 +573,13 @@ ul {
 
 .uk28 {
   font-size: 28px; }
-  
+ 
+.uk32 {
+  font-size: 32px; }
+
+.uk34 {
+  font-size: 34px; }
+
 .uk36 {
   font-size: 36px; }
 
@@ -707,7 +713,7 @@ padding-left:0;}
       font-size: 32px; }
     .specialwedding:after{
       content: 'We annouce you,' '\A' ' our special Wedding';
-	font-size: 28px;
+	font-size: 24px;
       white-space: pre;
     } }
 
