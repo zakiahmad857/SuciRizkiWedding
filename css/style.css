@@ -3549,6 +3549,9 @@ Back To Top Section
       background-color: rgb(34, 34, 34, 0,92);
       border: 1px solid #FFEBCD; }
 
+.border {
+	border: 1px solid #FFEBCD;}
+
 .warnaakad {
 color: #ffffff !important;}
 
