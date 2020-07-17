@@ -700,13 +700,14 @@ padding-left:0;}
     margin-left: auto; }
     .specialwedding:after{
       content: 'We annouce you, our special Wedding';
-	    font-size: 38px !important;
+	    font-size: 36px !important;
     }
   @media (max-width: 767px) {
     .section-heading, .rs-feature-box-1 .title {
       font-size: 32px; }
     .specialwedding:after{
       content: 'We annouce you,' '\A' ' our special Wedding';
+	font-size: 28px;
       white-space: pre;
     } }
 
