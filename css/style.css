@@ -4196,7 +4196,7 @@ color: #ffffff !important;}
 
  .banner-full .h-center1 > .wrap-caption,
 .banner .h-center1 > .wrap-caption {
-  width: 100%;
+  width: 70%;
   margin: 0 0;
   text-align: center; }
   @media (max-width: 991px) and (orientation: portrait){
@@ -4206,7 +4206,7 @@ color: #ffffff !important;}
       height:100%;
       text-align: center;
       vertical-align: bottom;
-      margin-top: 90%;} 
+      margin-top: 110%;} 
     }
 
  .banner-full .h-left > .wrap-caption,
