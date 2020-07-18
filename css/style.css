@@ -763,6 +763,13 @@ padding-left:0;}
     padding-bottom: 100px;
     padding-right: 80px;
     padding-left: 80px;}
+@media (max-width: 767px) {
+  	.akad {
+    padding-top: 90px; 
+    padding-bottom: 90px;
+    padding-right: 0;
+    padding-left: 0;}
+  }
 
 .surah {
     padding-top: 100px; 
@@ -771,6 +778,8 @@ padding-left:0;}
     padding-left: 80px;}
   @media (max-width: 767px) {
   	.surah {
+    padding-top: 90px; 
+    padding-bottom: 90px;
     padding-right: 0;
     padding-left: 0;}
   }
