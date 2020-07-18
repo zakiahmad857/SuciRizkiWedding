@@ -4196,8 +4196,8 @@ color: #ffffff !important;}
 
  .banner-full .h-center1 > .wrap-caption,
 .banner .h-center1 > .wrap-caption {
-  width: 100%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 0;
   text-align: center; }
   @media (max-width: 991px) and (orientation: portrait){
     .banner-full .h-center1 > .wrap-caption,
