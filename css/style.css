@@ -573,6 +573,11 @@ ul {
 
 .uk28 {
   font-size: 28px; }
+
+@media( max-width: 991px){
+    .uk28{
+      font-size: 22px;
+    }
  
 .uk32 {
   font-size: 32px; }
