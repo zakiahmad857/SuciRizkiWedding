@@ -4205,8 +4205,8 @@ color: #ffffff !important;}
       width: 100%; 
       margin: 0 auto;
       font-size: 30px !important;
-      padding-top: 20%;
-      padding-bottom: 100%;} 
+      padding-top: 20% !important;
+      padding-bottom: 100% !important; } 
     }
 
  .banner-full .h-left > .wrap-caption,
