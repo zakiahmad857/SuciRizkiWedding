@@ -759,7 +759,7 @@ padding-left:0;}
   background-position: center; }
 
 .akad {
-    Padding-top: 100px; 
+    padding-top: 100px; 
     padding-bottom: 100px;
     padding-right: 80px;
     padding-left: 80px;}
@@ -769,6 +769,12 @@ padding-left:0;}
     padding-bottom: 100px;
     padding-right: 80px;
     padding-left: 80px;}
+  @media (max-width: 767px) {
+  	.surah {
+    padding-right: 0;
+    padding-left: 0;}
+  }
+
 
 .bgi-cover-center {
   background-size: cover;
@@ -3987,10 +3993,10 @@ color: #ffffff !important;}
         display: none; }
 
       @media (max-width: 767px) {
-        .banner .owl-theme .coba{
-          
-         
-        }
+        #img1 , #img2{
+        padding-top: 	0;
+        padding-bottom: 10rem;
+    }
 
         
 
@@ -4214,9 +4220,10 @@ color: #ffffff !important;}
       font-size: 30px !important;
       padding-top: 20% !important;
       padding-bottom: 100% !important; 
-  	  padding-right: 0;} 
+  	  padding-right: 0;
+  	} 
 
-    }
+  }
 
  .banner-full .h-left > .wrap-caption,
 .banner .h-left > .wrap-caption {
