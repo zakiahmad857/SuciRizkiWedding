@@ -4213,7 +4213,9 @@ color: #ffffff !important;}
       margin: 0 auto;
       font-size: 30px !important;
       padding-top: 20% !important;
-      padding-bottom: 100% !important; } 
+      padding-bottom: 100% !important; 
+  	  padding-right: 0;} 
+
     }
 
  .banner-full .h-left > .wrap-caption,
