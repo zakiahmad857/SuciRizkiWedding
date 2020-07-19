@@ -594,6 +594,17 @@ ul {
 .uk36 {
   font-size: 36px; }
 
+@media( max-width: 991px){
+    .uk36{
+      font-size: 24px;
+    }
+}
+
+@media( max-width: 320px){
+    .uk36{
+      font-size: 20px;
+    }
+}
 .uk48 {
   font-size: 48px; }
 
