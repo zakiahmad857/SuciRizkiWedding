@@ -3700,7 +3700,7 @@ color: #ffffff !important;}
     }
 @media (max-width: 320px) {
     .parentsofbride:after{
-	    font-size : 14px;
+	    font-size : 12px;
       content: 'Daughter of' '\A' 'Mr. H. M. Effendi Dt. Sinaro & Mrs. Hj. Betty Atmi';
 	    white-space: pre; }
     }
