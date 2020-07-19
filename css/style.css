@@ -3714,7 +3714,7 @@ color: #ffffff !important;}
     }
   @media (max-width: 320px) {
     .parentsofgroom:after{
-	     font-size : 14px;
+	     font-size : 12px;
       content: 'Son of' '\A' 'Mr. H. Yusri Rizal & Mrs. (Almh) Mukhira';
 	    white-space: pre; }
     }
