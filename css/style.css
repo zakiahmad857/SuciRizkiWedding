@@ -3695,6 +3695,7 @@ color: #ffffff !important;}
     }
   @media (max-width: 767px) {
     .parentsofbride:after{
+	    font-size : 14px;
       content: 'Daughter of' '\A' 'Mr. H. M. Effendi Dt. Sinaro & Mrs. Hj. Betty Atmi';
 	    white-space: pre; }
     }
@@ -3703,6 +3704,7 @@ color: #ffffff !important;}
     }
   @media (max-width: 767px) {
     .parentsofgroom:after{
+	     font-size : 14px;
       content: 'Son of' '\A' 'Mr. H. Yusri Rizal & Mrs. (Almh) Mukhira';
 	    white-space: pre; }
     }
