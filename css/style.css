@@ -722,6 +722,10 @@ padding-left:0;}
       white-space: pre;
     } }
 
+@media (max-width: 320px) {
+    .section-heading, .rs-feature-box-1 .title {
+      font-size: 20px; }
+}
 .supheading {
   font-size: 18px;
   color: #C69C6D;
