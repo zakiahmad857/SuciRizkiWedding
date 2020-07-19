@@ -580,7 +580,7 @@ ul {
     }
 }
 
-@media( max-width: 991px){
+@media( max-width: 320px){
     .uk28{
       font-size: 16px;
     }
