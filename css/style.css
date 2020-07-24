@@ -727,14 +727,14 @@ padding-left:0;}
   .section-heading.text-right:after, .rs-feature-box-1 .text-right.title:after {
     margin-left: auto; }
     .specialwedding:after{
-      content: 'We annouce you, our special Wedding';
+      content: 'We announce you, our special Wedding';
 	    font-size: 36px !important;
     }
   @media (max-width: 767px) {
     .section-heading, .rs-feature-box-1 .title {
       font-size: 24px; }
     .specialwedding:after{
-      content: 'We annouce you,' '\A' ' our special Wedding';
+      content: 'We announce you,' '\A' ' our special Wedding';
 	font-size: 20px !important;
       white-space: pre;
     } }
